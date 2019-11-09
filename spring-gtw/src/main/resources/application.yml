@@ -1,0 +1,54 @@
+server:
+  port: 8080
+
+global-api-metrics:
+  referential:
+    code: GROUP
+  api:
+    code: 12345
+    name: Fake API
+  export:
+    cron-expr: "0/5 * * * * ?"
+#    cron-expr: "0 59 23 * * ?"
+  collector:
+    url: http://localhost:8081/collector/metrics
+
+
+spring:
+  cloud:
+    gateway:
+#      default-filters:
+#      - name: APIMetricsGlobalFilter
+      routes:
+      - id: fake_api
+        uri: http://localhost:8082
+        predicates:
+          - Host=**
+#          - Path=/hello/**
+        filters:
+        - name: APIMetricsPreFilter
+          args:
+            referentialCode: ${global-api-metrics.referential.code}
+            apiCode: ${global-api-metrics.api.code}
+            apiName: ${global-api-metrics.api.name}
+        - name: APIMetricsPostFilter
+          args:
+            referentialCode: ${global-api-metrics.referential.code}
+            apiCode: ${global-api-metrics.api.code}
+            apiName: ${global-api-metrics.api.name}
+
+# For TLS, see https://cloud.spring.io/spring-cloud-gateway/reference/html/ (section TLS/SSL)
+#server:
+#  ssl:
+#    enabled: true
+#    key-alias: scg
+#    key-store-password: scg1234
+#    key-store: classpath:scg-keystore.p12
+#    key-store-type: PKCS12
+
+logging:
+  level:
+    root: INFO
+    fr:
+      volkaert:
+        global_api_metrics: DEBUG

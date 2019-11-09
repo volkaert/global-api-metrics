@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    fr:
+      volkaert:
+        global_api_metrics: DEBUG

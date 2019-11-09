@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57047930-5ade-45fe-a0c6-bca4e32a923f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DependenciesAnalyzeManager">
+    <option name="forwardDirection" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TKnzpIi8vJeb3TlIq1bcggDiNf" />
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fake-api" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.volkaert.global_api_metrics.fake_collector" />
+      <recent name="fr.volkaert.global_api_metrics.spring_gtw" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-gtw/src/main/java/fr/volkaert/global_api_metrics/spring_gtw/exporter" />
+      <recent name="$PROJECT_DIR$/fake-collector/src/main/resources" />
+      <recent name="$PROJECT_DIR$/fake-collector" />
+      <recent name="$PROJECT_DIR$/spring-gtw/src/main/resources" />
+      <recent name="$PROJECT_DIR$/fake-api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FakeCollectorApplication">
+    <configuration name="FakeApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.volkaert.global_api_metrics.fake_api.FakeApiApplication" />
+      <module name="fake-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.volkaert.global_api_metrics.fake_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FakeCollectorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.volkaert.global_api_metrics.fake_collector.FakeCollectorApplication" />
+      <module name="fake-collector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.volkaert.global_api_metrics.fake_collector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringGtwApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.volkaert.global_api_metrics.spring_gtw.SpringGtwApplication" />
+      <module name="spring-gtw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.volkaert.global_api_metrics.spring_gtw.exporter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FakeCollectorApplication" />
+        <item itemvalue="Application.FakeApiApplication" />
+        <item itemvalue="Application.SpringGtwApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57047930-5ade-45fe-a0c6-bca4e32a923f" name="Default Changelist" comment="" />
+      <created>1573217919262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573217919262</updated>
+    </task>
+    <servers />
+  </component>
+</project>
